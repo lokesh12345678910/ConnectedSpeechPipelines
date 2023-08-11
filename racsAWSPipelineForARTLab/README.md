@@ -5,10 +5,8 @@
    conda create --name racs python=3.8
    conda activate racs
    conda install pip
-   pip install -r ConnectedSpeechPipelines
-/racsAWSPipelineForARTLab/python/src/requirements.txt
-   pip install -r ConnectedSpeechPipelines
-/racsAWSPipelineForARTLab/python/test/requirements.txt
+   pip install -r ConnectedSpeechPipelines/racsAWSPipelineForARTLab/python/src/requirements.txt
+   pip install -r ConnectedSpeechPipelines/racsAWSPipelineForARTLab/python/test/requirements.txt
    conda install -c conda-forge ffmpeg
    pip install spacy_transformers
    pip install polyglot
