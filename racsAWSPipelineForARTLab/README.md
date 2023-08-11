@@ -44,6 +44,8 @@ python app.py --input-dir <INPUT FOLDER WITH DATA YOU WANT TO ANALYZE> \
 ```
 Example command: python /work/09424/smgrasso1/ls6/racsAWSPipeline/python/src/app.py --input-dir ./racsTrialFiles --static-dir /work/09424/smgrasso1/ls6/racsAWSPipeline/data/end2end/static/LingFeatData/ --output-file-prefix trial --output-file-type csv
 
+Example command on Lisa's tacc work directory: python ConnectedSpeechPipelines/racsAWSPipelineForARTLab/python/src/app.py --input-dir ./racsTrialFiles  --output-dir ./ --static-dir ConnectedSpeechPipelines/racsAWSPipelineForARTLab/data/end2end/static/LingFeatData/ --output-file-prefix racsPipelineTrial --output-file-type csv 
+
 
 When running, the pipeline will create 3 temporary directories in your running directory (wavFiles, monoWavFiles, trimmedMonoWavFiles); these will be deleted once the pipeline finishes
 
