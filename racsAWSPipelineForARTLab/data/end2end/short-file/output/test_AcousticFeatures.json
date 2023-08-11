@@ -1,0 +1,32 @@
+[
+    {
+        "AWS_ID":"28478666-e769-4e48-9a1b-b0ea158c1351",
+        "file":"28478666-e769-4e48-9a1b-b0ea158c1351_treePictureRecording.ogg",
+        "F0semitoneFrom27.5Hz_sma3nz_amean":30.9404697418,
+        "F0semitoneFrom27.5Hz_sma3nz_stddevNorm":0.2754861116,
+        "F0semitoneFrom27.5Hz_sma3nz_percentile20.0":22.5589447021,
+        "F0semitoneFrom27.5Hz_sma3nz_percentile50.0":33.3200531006,
+        "F0semitoneFrom27.5Hz_sma3nz_percentile80.0":36.0009002686,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2":13.4419555664,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope":233.3487701416,
+        "F0semitoneFrom27.5Hz_sma3nz_stddevRisingSlope":450.9766540527,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope":112.1786270142,
+        "F0semitoneFrom27.5Hz_sma3nz_stddevFallingSlope":112.3826065063,
+        "jitterLocal_sma3nz_amean":0.0467463732,
+        "jitterLocal_sma3nz_stddevNorm":1.7574592829,
+        "F1frequency_sma3nz_amean":565.6770019531,
+        "F1frequency_sma3nz_stddevNorm":0.3286741078,
+        "F2frequency_sma3nz_amean":1616.9644775391,
+        "F2frequency_sma3nz_stddevNorm":0.1557415277,
+        "F3frequency_sma3nz_amean":2610.0759277344,
+        "F3frequency_sma3nz_stddevNorm":0.1221926659,
+        "VoicedSegmentsPerSec":1.8348623514,
+        "MeanVoicedSegmentLengthSec":0.4169999957,
+        "StddevVoicedSegmentLengthSec":0.3851419389,
+        "MeanUnvoicedSegmentLength":0.1215384528,
+        "StddevUnvoicedSegmentLength":0.169993028,
+        "speechrate(nsyll \/ dur)":4.1409548555,
+        "articulation rate(nsyll \/ phonationtime)":4.8286309411,
+        "Speech-to-pause ratio":6.0216647662
+    }
+]
