@@ -465,11 +465,11 @@ def extractAWSIDForLinguistic(sampleName):
 def getLingFeatsFromDirectory(path):
     linguisticFeats = []
     for file in sorted(os.listdir(path)):
-        if file.endswith('.txt'):
-            if 'count' not in file:
-                transcription = open(path + file).read()
-                fileLinguisticFeats = extractFeaturesFromFile(file,transcription.lower())
-                linguisticFeats.append(fileLinguisticFeats)
+        #if file.endswith('.txt'):
+        if 'count' not in file:
+          transcription = open(path + file).read()
+          fileLinguisticFeats = extractFeaturesFromFile(file,transcription.lower())
+          linguisticFeats.append(fileLinguisticFeats)
     return linguisticFeats
 
 def runPipeline(inputDirectory, fileName):
